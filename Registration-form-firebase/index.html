@@ -11,22 +11,33 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: #222;
+            color: #eee;
+            font-family: Arial, sans-serif;
         }
         form {
             width: 50%;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            text-align: center;
         }
         label {
             display: block;
             margin-bottom: 5px;
-            align-self: center;
         }
         input[type="text"], input[type="number"], input[type="email"] {
-            width: 100%;
+            width: calc(100% - 16px);
             padding: 8px;
             margin-bottom: 10px;
-            border: 1px solid #ccc;
+            border: 1px solid #555;
             border-radius: 4px;
             box-sizing: border-box;
+            background-color: #444;
+            color: #eee;
         }
         button[type="submit"] {
             background-color: #4CAF50;
@@ -41,7 +52,7 @@
         }
         .alert{
             width: 100%;
-            background-color: rgb(85, 178, 222);
+            background-color: #4CAF50;
             padding: 10px 20px;
             border-radius: 5px;
             text-align: center;
